@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>BOM FOR PCBs - WF-DOCS-HUM</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/darcula.min.css">
+        <link href="../extra.css" rel="stylesheet">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">WF-DOCS-HUM</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">USER GUIDE</a>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">BOM FOR PCBs</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="https://wildfirelaboratories.com" class="nav-link">WILDFIRE SITE</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href=".." class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" class="nav-link disabled">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#support" class="nav-link">SUPPORT</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#bom" class="nav-link">B.O.M.</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#build-notes" class="nav-link">BUILD NOTES</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#board-images" class="nav-link">BOARD IMAGES</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<p><font size="7" face="Courier Prime"><i>WL-4033 - "RUSTY HUM"</i></font><br>
+<font size="5">MATERIALS GUIDE</font></p>
+<p><br>
+<img src="../rh-mkdocs3.png" height="60%" width="60%">
+<br><br><br><br></p>
+<h1 id="support">SUPPORT</h1>
+<p>If any issues arise <a href="mailto:wildfirelaboratories@gmail.com"><strong>please click here to contact us via email first</strong></a>. We'll walk you through any problems you may be having (with the module). 
+<br><br><br><br></p>
+<h1 id="bom">B.O.M.</h1>
+<p>for <strong>v2.0</strong> boards 
+<br></p>
+<table>
+<thead>
+<tr>
+<th><strong>Part</strong></th>
+<th><strong>Value</strong></th>
+<th><strong>Qty.</strong></th>
+<th><strong>Link</strong></th>
+<th><strong>Other Notes</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>IC1</td>
+<td>TL074P</td>
+<td><strong>1</strong></td>
+<td><a href="https://www.taydaelectronics.com/tl074-quad-operational-amplifier-j-fet-pdip-14-tl074cn.html">here</a></td>
+<td>For versions earlier than <strong>2.0</strong>, this will be a pre-soldered SMD part.</td>
+</tr>
+<tr>
+<td>IC2</td>
+<td>78L05Z</td>
+<td><strong>1</strong></td>
+<td><a href="https://www.taydaelectronics.com/l78l05acz-l78l05-78l05-5-volts-100ma-voltage-regulator-ic.html">here</a></td>
+<td></td>
+</tr>
+<tr>
+<td>D1/D2</td>
+<td>1N4004</td>
+<td><strong>2</strong></td>
+<td><a href="https://www.taydaelectronics.com/1n4004-diode-1a-400v.html">here</a></td>
+<td></td>
+</tr>
+<tr>
+<td>R3, R4, R5, R6, R9</td>
+<td>1k</td>
+<td><strong>5</strong></td>
+<td><a href="https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html">all resistors</a>**</td>
+<td></td>
+</tr>
+<tr>
+<td>R7, R8, R10</td>
+<td>100k</td>
+<td><strong>3</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R1</td>
+<td>470R</td>
+<td><strong>1</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R2</td>
+<td>2.2k</td>
+<td><strong>1</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C1 to C4, C8, C10</td>
+<td>100nF</td>
+<td><strong>6</strong></td>
+<td><a href="https://www.taydaelectronics.com/0-1uf-100v-5-polyester-film-box-type-capacitor.html">here</a></td>
+<td></td>
+</tr>
+<tr>
+<td>C5</td>
+<td>22pF</td>
+<td><strong>1</strong></td>
+<td><a href="https://www.taydaelectronics.com/10-x-22pf-50v-ceramic-disc-capacitor-pkg-of-10.html">here</a></td>
+<td></td>
+</tr>
+<tr>
+<td>C6</td>
+<td>4.7uF</td>
+<td><strong>1</strong></td>
+<td><a href="https://www.taydaelectronics.com/4-7uf-25v-radial-tantalum-capacitor.html">here</a></td>
+<td></td>
+</tr>
+<tr>
+<td>M2</td>
+<td>Electret Microphone</td>
+<td><strong>1</strong></td>
+<td><a href="https://www.taydaelectronics.com/condenser-microphone-1-5k-ohm-1-5v.html">here</a></td>
+<td></td>
+</tr>
+<tr>
+<td>GAIN</td>
+<td>50kB Trimpot</td>
+<td><strong>1</strong></td>
+<td><a href="https://www.taydaelectronics.com/20k-ohm-linear-taper-potentiometer-round-shaft-pcb-mount.html">here</a></td>
+<td></td>
+</tr>
+<tr>
+<td>VR1</td>
+<td>10kB Pot</td>
+<td><strong>2</strong></td>
+<td><a href="https://www.taydaelectronics.com/tayda-10k-ohm-linear-taper-potentiometer-round-shaft-pcb-9mm-6-35-mm.html">here</a></td>
+<td></td>
+</tr>
+<tr>
+<td>n/a</td>
+<td>Pin Headers</td>
+<td><strong>1</strong></td>
+<td><a href="https://www.taydaelectronics.com/40-pin-2-54-mm-single-row-pin-header-strip.html">here</a></td>
+<td>2 strips of 5</td>
+</tr>
+<tr>
+<td>LDR1 / LDR2</td>
+<td>Vactrol</td>
+<td><strong>2</strong></td>
+<td><a href="https://www.taydaelectronics.com/resistors/photoresistors/photo-conductive-cell-resistor-ldr-540nm-radial.html">5528 LDR</a> / 5mm red LED / 6-7mm Heatshrink</td>
+<td><a href="https://www.instructables.com/How-to-Make-a-Optocoupler-Vactrol/">Vactrol guide here</a></td>
+</tr>
+<tr>
+<td>Knob</td>
+<td>n/a</td>
+<td><strong>1</strong></td>
+<td><a href="https://www.taydaelectronics.com/knob-davies-1900h-clone-black.html">here</a></td>
+<td>Or any knob w/ brass screw and insert, get creative!</td>
+</tr>
+</tbody>
+</table>
+<p><br>
+** this link is to a quick-order page for ALL resistor values. 
+<br><br><br></p>
+<h1 id="build-notes">BUILD NOTES</h1>
+<p><br></p>
+<ul>
+<li>
+<p>Before powering on for the first time, <strong>check for
+shorts between the GND, +12, and -12 test points</strong>.</p>
+</li>
+<li>
+<p>Values for all components are listed on the board itself.</p>
+</li>
+<li>
+<p>The microphone itself will rest on the resistors a bit, this is normal!</p>
+</li>
+<li>
+<p>The components marked OUT and CV are 3.5mm audio jacks - they're marked
+as such for easy troubleshooting.</p>
+</li>
+</ul>
+<p><br><br><br></p>
+<h1 id="board-images">BOARD IMAGES</h1>
+<p><br></p>
+<ul>
+<li><font size="6"><a href="../rh-layout.png">PART LAYOUT</a></font></li>
+<li><font size="6"><a href="../rh-pcb.png">BOARD IMAGE</a></font></li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
